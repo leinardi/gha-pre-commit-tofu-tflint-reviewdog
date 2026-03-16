@@ -40,7 +40,7 @@ runs:
       uses: opentofu/setup-opentofu@v1
 
     - name: Setup TFLint
-      uses: terraform-linters/setup-tflint@4cb9feea73331a35b422df102992a03a44a3bb33
+      uses: terraform-linters/setup-tflint@b480b8fcdaa6f2c577f8e4fa799e89e756bb7c93
       with:
         github_token: ${{ inputs.github-token }}
 
